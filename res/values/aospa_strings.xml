@@ -8,56 +8,6 @@
     <!-- Paranoid Android version -->
     <string name="aospa_version">Paranoid Android version</string>
 
-    <!-- Adaptive playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use smart pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-
-    <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
-
-    <!-- aptX Settings -->
-    <string name="connected_device_codec_preference">Qualcomm® aptX™ Codec preferences</string>
-
-    <!-- Battery info -->
-    <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
-    <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
-
     <!-- Charging control -->
     <string name="charging_control_title">Charging control</string>
     <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
@@ -75,64 +25,5 @@
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
     <string name="charging_control_reset">Reset</string>
-
-    <!-- DC dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
-    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
-    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
-
-    <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Always show time and info only when the device is plugged in</string>
-
-    <!-- Network settings -->
-    <string name="data_category_title">Data</string>
-
-    <!-- Playback control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
-
-    <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
-    <!-- Quick torch -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
-
-    <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
-
-    <!-- Screen-Off UDFPS -->
-    <string name="security_settings_screen_off_unlock_udfps_title">Screen-off Fingerprint Unlock</string>
-    <string name="security_settings_screen_off_unlock_udfps_keywords">Screen-off, Unlock</string>
-    <string name="security_settings_screen_off_unlock_udfps_description">Use Fingerprint Unlock even when the screen is off</string>
-
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-
-    <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Status bar icons</string>
-    <string name="icon_manager_summary">Control visibility of status bar icons</string>
-
-    <!-- Vibration patterns -->
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
-    <string name="ring_vibration_pattern_title">Ring vibration pattern</string>
-    <string name="pattern_default">Device default</string>
-    <string name="pattern_dzzz" translatable="false">dzzz</string>
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-    <string name="pattern_da_mm" translatable="false">da-mm</string>
-    <string name="pattern_da_da" translatable="false">da-da</string>
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
 
 </resources>

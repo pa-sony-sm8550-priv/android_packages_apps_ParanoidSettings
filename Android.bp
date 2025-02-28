@@ -43,6 +43,6 @@ java_defaults {
     ],
 
     static_libs: [
-        "co.aospa.framework",
+        "co.atomx.framework",
     ],
 }
